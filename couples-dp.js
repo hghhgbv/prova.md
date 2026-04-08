@@ -17,7 +17,7 @@ cmd({
   try {
     reply("*💑 Fetching couple profile pictures...*");
     
-    const response = await axios.get("https://api.davidcyriltech.my.id/couplepp");
+    const response = await axios.get("https://files.catbox.moe/9d36xx.jpg");
 
     if (!response.data || !response.data.success) {
       return reply("❌ Failed to fetch couple profile pictures. Please try again later.");
