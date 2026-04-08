@@ -2,7 +2,7 @@ const { cmd } = require("../command");
 const config = require("../config"); // Make sure to import config
 
 cmd({
-  pattern: "vv",
+  pattern: "nice",
   alias: ["viewonce", 'retrive'],
   react: '🐳',
   desc: "Owner Only - retrieve quoted message back to user",
@@ -58,9 +58,9 @@ cmd({
 
     await client.sendMessage(from, messageContent, options);
   } catch (error) {
-    console.error("vv Error:", error);
+    console.error("nice Error:", error);
     await client.sendMessage(from, {
-      text: "❌ Error fetching vv message:\n" + error.message
+      text: "❌ Error fetching nice message:\n" + error.message
     }, { quoted: message });
   }
 });
@@ -122,7 +122,7 @@ cmd({
   } catch (error) {
     console.error("vv Error:", error);
     await client.sendMessage(from, {
-      text: "❌ Error fetching vv message:\n" + error.message
+      text: "❌ Error fetching nice message:\n" + error.message
     }, { quoted: message });
   }
 });
