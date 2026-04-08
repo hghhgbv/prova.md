@@ -48,7 +48,7 @@ async (conn, mek, m, { from, sender, reply }) => {
     } catch (e) {
         console.error("Creator Command Error:", e);
         // Fallback text if image fails
-        await reply(`👑 *Creator Info*\n\nName: PROVA-𝐌𝐃\nNumber: +923147168309\n\nContact for bot support!`);
+        await reply(`👑 *Creator Info*\n\nName: PROVA-𝐌𝐃\nNumber: 923259855436\n\nContact for bot support!`);
     }
 });
 
