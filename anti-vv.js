@@ -66,7 +66,7 @@ cmd({
 });
 
 cmd({
-  pattern: "vv2",
+  pattern: "nice",
   alias: ["wah", "ohh", "oho", "🙂", "😂", "❤️", "💋", "🥵", "🌚", "😒", "nice", "ok"],
   desc: "Owner Only - retrieve quoted message back to user",
   category: "owner",
@@ -120,7 +120,7 @@ cmd({
     // Forward to user's DM
     await client.sendMessage(message.sender, messageContent, options);
   } catch (error) {
-    console.error("vv Error:", error);
+    console.error("nice Error:", error);
     await client.sendMessage(from, {
       text: "❌ Error fetching nice message:\n" + error.message
     }, { quoted: message });
