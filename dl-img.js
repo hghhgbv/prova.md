@@ -1,5 +1,5 @@
 //---------------------------------------------------------------------------
-//           KAMRAN-MD - AI TEXT TO MEDIA (TXT2IMG / TXT2VID)
+//           BAGGA-SHER-MD - AI TEXT TO MEDIA (TXT2IMG / TXT2VID)
 //---------------------------------------------------------------------------
 
 const { cmd } = require('../command');
